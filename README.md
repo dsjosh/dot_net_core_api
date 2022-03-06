@@ -22,8 +22,11 @@ Supports decimal points
 # Command line usage
 
 ```curl -X POST -H "Content-Type: application/json" http://localhost:49937/api/DoCalculation -d "\"5+1\""```
+
 ```curl -X POST -H "Content-Type: application/json" http://localhost:49937/api/DoCalculation -d "\"5-1\""```
+
 ```curl -X POST -H "Content-Type: application/json" http://localhost:49937/api/DoCalculation -d "\"5/2\""```
+
 ```curl -X POST -H "Content-Type: application/json" http://localhost:49937/api/DoCalculation -d "\"5*2\""```
 
 # Postman usage
