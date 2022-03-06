@@ -29,7 +29,7 @@ namespace WebApplication1.Controllers
             return builder.ToString();
         }
 
-        [HttpPost("DoCalculation")] //works in postman body json mode in url http://localhost:49937/api/DoCalculation
+        [HttpPost("DoCalculation")]
         public string DoCalculation([FromBody] string content)
         {
             content = RemoveUnwantedChar(content);
